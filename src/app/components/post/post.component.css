@@ -1,0 +1,13 @@
+div {
+    font: 24px/28px sans-serif;
+    color: #4a4a4a;
+    margin-right: -4px;
+    position: relative;
+    padding: 15px 20px;
+    background: #;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}

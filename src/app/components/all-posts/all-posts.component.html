@@ -1,0 +1,12 @@
+<ul *ngFor="let post of posts">
+    <li routerLink="/post/{{post.id}}">
+        {{post.title}}
+    </li>
+    <li>
+        <div>{{post.body}}</div>
+    </li>
+    <li>
+        <a routerLink="/post" [queryParams]="{id: post.id}">get by queryParams</a>
+        <a routerLink="/post" [state]="{post: post}">get by state</a>
+    </li>
+</ul>

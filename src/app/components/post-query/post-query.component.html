@@ -1,0 +1,9 @@
+<ng-container *ngIf="post">
+    <div>
+        <div>id: {{post.id}}</div>
+        <div>title: {{post.title}}</div>
+        <div>body: {{post.body}}</div>
+    </div>
+
+    <app-all-comments [postId]="post.id"></app-all-comments>
+</ng-container>

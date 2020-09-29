@@ -1,0 +1,51 @@
+a {
+    color: red;
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    border: red 1px solid;
+}
+
+ul {
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 15px 4px 17px 0;
+    list-style: none;
+    border-bottom: 1px solid;
+}
+
+ul li {
+    font: 12px/18px sans-serif;
+    margin-right: -4px;
+    position: relative;
+    padding: 15px 20px;
+    background: #;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+ul li div {
+    margin-right: -4px;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+ul li:first-child:hover {
+    background: #;
+    color: #666;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.red {
+    color: red;
+}
